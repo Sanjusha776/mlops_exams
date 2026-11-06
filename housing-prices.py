@@ -26,3 +26,4 @@ print(f"Test mean absolute error: ${mean_absolute_error(y_test, predictions):,.0
 # Predict for a 1,700 sq ft, 3-bedroom, 10-year-old home.
 home = np.array([[1700, 3, 10]], dtype=float)
 print(f"Estimated price: ${model.predict(home)[0]:,.0f}")
+print("Hello")
